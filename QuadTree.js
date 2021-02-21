@@ -146,14 +146,7 @@ class QuadTree {
     }
 
     render() {
-        stroke(0);
-        noFill();
-        rect(
-            this.bounds.x,
-            this.bounds.y,
-            this.bounds.width,
-            this.bounds.height
-        );
+        this.bounds.render();
 
         if (this.isSplit) {
             for (let i = 0; i < this.quadrants.length; i++) {

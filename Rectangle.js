@@ -5,4 +5,10 @@ class Rectangle {
         this.width = width;
         this.height = height;
     }
+
+    render() {
+        stroke(0);
+        noFill();
+        rect(this.x, this.y, this.width, this.height);
+    }
 }
