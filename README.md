@@ -14,4 +14,4 @@ A simple project using [P5.js](https://p5js.org/) to visualize a quadtree being 
 
 This app has been deployed using [GitHub Pages](https://pages.github.com/).
 
-The live demo can be accessed here: _[DEMO](https://isoyute.github.io/quadtree-collision-detection/)_
+The live demo can be accessed here: _[DEMO](https://lowelow.github.io/quadtree-collision-detection/)_
